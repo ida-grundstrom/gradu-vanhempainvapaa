@@ -61,9 +61,6 @@ keskiarvot <- data_ehdot |>
     .groups = "drop"
   )
 
-View(kunnat)
-print(names(kunnat))
-
 # -----------------------------------------------------------------------------
 # 4. PREPARE MAP DATA
 # -----------------------------------------------------------------------------
@@ -107,7 +104,7 @@ p2 <- ggplot(kartta_luokka) +
       "45,5–48,8" = unname(palette_full["navy"])
     ),
     na.value = unname(palette_full["grey"]),
-    name     = "Vanhempainvapaapäiviä (keskiarvo)"
+    name     = "Paternity Leave Days (average)"
   ) +
   theme_minimal() +
   theme(
@@ -134,4 +131,4 @@ dir.create("figures", showWarnings = FALSE)
 ggsave("figures/kartta_isien_vapaat.png", plot = p2,
        width = 6, height = 8, dpi = 300)
 
-message("Valmis! Kuva tallennettu figures/-kansioon.")
+message("Kuva tallennettu figures/-kansioon.")
