@@ -23,7 +23,7 @@ More visualizations from the descriptive analysis will be added as the thesis pr
 
 An introductory visualization motivating the research topic. The figure displays median disposable income for men and women alongside the number of firstborn children by mother's age group (Finland, 2014–2024).
 
-The figure illustrates that the gender income gap begins to widen around the age of 28–30, which coincides with the peak in the number of firstborn children. The visualization does not establish or claim any causal relationship — it is intended solely to highlight the temporal co-occurrence of these patterns and to motivate the study of parental leave effects on labor market outcomes.
+The figure illustrates that the gender income gap begins to widen around the age of 28–30, which coincides with the peak in the number of firstborn children. The visualization does not establish or claim any causal relationship; it is intended solely to highlight the temporal co-occurrence of these patterns and to motivate the study of parental leave effects on labor market outcomes.
 
 **Data sources:**
 - Disposable income by age and gender: [Statistics Finland, Income Distribution Statistics](https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__tjt/11py.px)
